@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Outer puzzle card with double border like style-reference.png -->
+  <rect x="36" y="36" width="440" height="440" rx="44" fill="#FAF6ED" stroke="#241C15" stroke-width="18"/>
+  <rect x="58" y="58" width="396" height="396" rx="26" fill="#F5EFE2" stroke="#5E4F40" stroke-width="4"/>
+
+  <!-- 3x3 Grid Lines -->
+  <line x1="190" y1="60" x2="190" y2="452" stroke="#DFD2B8" stroke-width="6"/>
+  <line x1="322" y1="60" x2="322" y2="452" stroke="#DFD2B8" stroke-width="6"/>
+  <line x1="60" y1="190" x2="452" y2="190" stroke="#DFD2B8" stroke-width="6"/>
+  <line x1="60" y1="322" x2="452" y2="322" stroke="#DFD2B8" stroke-width="6"/>
+
+  <!-- Subtle walnut letters in top and bottom rows (clean vector paths) -->
+  <!-- Top-left: R -->
+  <path d="M110 150 V98 H132 C143 98 150 104 150 113 C150 121 144 127 135 128 L152 150 M110 126 H131" fill="none" stroke="#5E4F40" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" opacity="0.65"/>
+  <!-- Top-mid: E -->
+  <path d="M274 98 H238 V150 H274 M238 124 H268" fill="none" stroke="#5E4F40" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" opacity="0.65"/>
+  <!-- Top-right: A -->
+  <path d="M366 150 L388 98 L410 150 M373 135 H403" fill="none" stroke="#5E4F40" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" opacity="0.65"/>
+
+  <!-- Bottom-left: K -->
+  <path d="M110 362 V414 M148 362 L114 390 L150 414" fill="none" stroke="#5E4F40" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" opacity="0.65"/>
+  <!-- Bottom-mid: D -->
+  <path d="M238 362 V414 H256 C272 414 282 403 282 388 C282 373 272 362 256 362 Z" fill="none" stroke="#5E4F40" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" opacity="0.65"/>
+  <!-- Bottom-right: T -->
+  <path d="M366 362 H410 M388 362 V414" fill="none" stroke="#5E4F40" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" opacity="0.65"/>
+
+  <!-- Circled word pill in middle row (terracotta-burgundy ring over warm sand fill) -->
+  <rect x="68" y="198" width="376" height="116" rx="58" fill="#DFD2B8" stroke="#A83820" stroke-width="18"/>
+
+  <!-- Highlighted word letters: W - O - N (bold espresso ink) -->
+  <!-- Middle-left: W -->
+  <path d="M98 226 L112 286 L128 242 L144 286 L158 226" fill="none" stroke="#241C15" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Middle-center: O -->
+  <circle cx="256" cy="256" r="30" fill="none" stroke="#241C15" stroke-width="14"/>
+  <!-- Middle-right: N -->
+  <path d="M366 286 V226 L410 286 V226" fill="none" stroke="#241C15" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
