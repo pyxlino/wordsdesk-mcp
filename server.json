@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.wordsdesk/wordsdesk",
+  "title": "WordsDesk",
+  "description": "Play word search puzzles from 11 themes or make your own from your words, with a playable grid.",
+  "version": "1.0.0",
+  "websiteUrl": "https://wordsdesk.com",
+  "repository": {
+    "url": "https://github.com/pyxlino/wordsdesk-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://wordsdesk.com/mcp/icons/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://wordsdesk.com/mcp/icons/icon-256.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
+      ]
+    },
+    {
+      "src": "https://wordsdesk.com/mcp/icons/icon-128.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "128x128"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wordsdesk.com/api/mcp"
+    }
+  ]
+}
